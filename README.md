@@ -139,4 +139,16 @@ fixICAttributeName
  USE_DATA value is true if $('meta[name="intercoolerjs:use-data-prefix"]').attr("content") == "true"; statified.
 
  
+--------------
 
+
+Process Enhancement:
+
+
+starts with if conditions with non ic-ignore :
+
+
+and has ic-enhance attribute in it
+
+
+if it is anchor tag then flow gets to enhanceAnchor function and if it is form tag then enhanceForm
