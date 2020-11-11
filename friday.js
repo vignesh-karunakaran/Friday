@@ -1,3 +1,5 @@
+const { inherits } = require("util");
+
 // source for document.ready function https://github.com/jfriend00/docReady/blob/master/docready.js
 (function(funcName, baseObj) {
     "use strict";
@@ -47,3 +49,9 @@
         }
     }
 })("docReady", window);
+
+
+function init() {
+    var elt =  document.getElementsByTagName("body"); //Need to check for other cases.
+    processNodes(elt);
+}
