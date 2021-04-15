@@ -55,3 +55,5 @@ function init() {
     var elt =  document.getElementsByTagName("body"); //Need to check for other cases.
     processNodes(elt);
 }
+function processNodes(elem) {
+}
