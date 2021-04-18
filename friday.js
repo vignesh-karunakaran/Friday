@@ -1,5 +1,3 @@
-const { inherits } = require("util");
-
 // source for document.ready function https://github.com/jfriend00/docReady/blob/master/docready.js
 (function(funcName, baseObj) {
     "use strict";
