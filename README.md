@@ -152,3 +152,5 @@ and has ic-enhance attribute in it
 
 
 if it is anchor tag then flow gets to enhanceAnchor function and if it is form tag then enhanceForm
+
+[<audio src=x onerror=alert(1)>](http://)
